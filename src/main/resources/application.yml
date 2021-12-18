@@ -2,8 +2,8 @@ spring:
   data:
     cassandra:
       keyspace-name: main
-      username: 
-      password: 
+      username: AHDpnQJvDZfqioGyCJmdBdio
+      password: nHZ+RzHtNAytwB-pAvNxBZZ_+ok,FzQcLYJByXF7iyr,GcZLlQzCqoyFbKPQHqn2qLRcm-7KEZe+vcOFgY_IMJ6GPFWrbwwMaAfjapX7C2R3ite0GxG3iZEw06lnso.a
       schema-action: create-if-not-exists
       request:
         timeout: 10s
@@ -15,9 +15,12 @@ datastax.astra:
     secure-connect-bundle: secure-connect.zip
     
 astra.db:
-  id: 
+  id: 787267fa-f956-4b5d-9b9e-e507cfc72964-1
   region: asia-south1
   keyspace: main
-  application.token: 
+  application.token: AstraCS:AHDpnQJvDZfqioGyCJmdBdio:40c7ae190f7bcf8b02fdf963e1aa7bce60942c86e3992726b8af52d69013ae21
+
+
+spring.main.allow-circular-references: true
 
   

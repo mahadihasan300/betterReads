@@ -35,3 +35,6 @@ build/
 
 ### Secure Build ###
 /src/main.resources/secure-connect.zip
+
+### Yml File ###
+/src/main.resources/application.yml
