@@ -1,16 +1,22 @@
+datadump.location:
+      author: H:\Spring Projects\Build a book tracker app (Spring Boot + Cassandra)\test-authors.txt
+      works: H:\Spring Projects\Build a book tracker app (Spring Boot + Cassandra)\test-works.txt
+
 spring:
   data:
     cassandra:
       keyspace-name: main
       username: AHDpnQJvDZfqioGyCJmdBdio
       password: nHZ+RzHtNAytwB-pAvNxBZZ_+ok,FzQcLYJByXF7iyr,GcZLlQzCqoyFbKPQHqn2qLRcm-7KEZe+vcOFgY_IMJ6GPFWrbwwMaAfjapX7C2R3ite0GxG3iZEw06lnso.a
-      schema-action: create-if-not-exists
+      schema-action: recreate
       request:
         timeout: 10s
       connection:
         connect-timeout: 10s
         init-query-timeout: 10s
-        
+
+  application:
+    name: betterreads-data-loader
 datastax.astra:
     secure-connect-bundle: secure-connect.zip
     
